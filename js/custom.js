@@ -77,6 +77,15 @@ function initMap() {
 
     extendData();
 
+    // Load GeoJSON.
+     map.data.loadGeoJson(
+         'https://storage.googleapis.com/mapsdevsite/json/google.json');
+
+     // Set the stroke width, and fill color for each polygon
+     map.data.setStyle({
+       fillColor: 'green',
+       strokeWeight: 1
+     });
 }
 
 function callback(results, status) {
