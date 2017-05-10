@@ -1,4 +1,4 @@
-google.maps.visualRefresh = true;
+// google.maps.visualRefresh = true;
 var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
 var school = 'https://cdn2.iconfinder.com/data/icons/app-types-in-grey/512/app_type_university_512px_GREY.png';
 var bangalore = { lat: 12.97, lng: 77.59 };
@@ -16,13 +16,13 @@ var selectedSchool;
 var selectedPoly;
 var prevSelectedPoly;
 
-// function initMap() {
-//
-//   var mapOptions = {
-//       center: bangalore,
-//       zoom: 12,
-//       mapTypeId: google.maps.MapTypeId.ROADMAP
-//   };
+function initMap() {
+
+  var mapOptions = {
+      center: bangalore,
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
