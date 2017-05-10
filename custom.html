@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>custom</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="map-outer">
+		<div id="map"></div>
+
+		<div class="checkbox-outer">
+			<input class="checkbox" id="Dial-a-Ride" name="Dial-a-Ride" type="checkbox" value="Dial-a-Ride" />
+			<label for="Dial-a-Ride">Toggle Schools</label>
+		</div>
+	</div>
+
+	<div id="marker-position"></div>
+
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/school_zones.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHyF7fJdrdyM_jQrzvwTq-bADDbTwLqtY&libraries=places,drawing,visualization&callback=initMap"	async defer></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>reference</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<fieldset id="form">
+	    <input class="checkbox" id="Dial-a-Ride" name="Dial-a-Ride" type="checkbox" value="Dial-a-Ride" />
+	    <label for="Dial-a-Ride">Dial-a-Ride</label>
+
+	    <input class="checkbox" id="Nutrition" name="Nutrition" type="checkbox" value="Nutrition" />
+	    <label for="Nutrition">Nutrition</label>
+
+	    <input class="checkbox" id="American Legion" name="American Legion" type="checkbox" value="American Legion" />
+	    <label for="American Legion">American Legion</label>
+
+	    <input class="checkbox" id="Veterans of Foreign Wars" name="Veterans of Foreign Wars" type="checkbox" value="Veterans of Foreign Wars" />
+	    <label for="Veterans of Foreign Wars">Veterans of Foreign Wars</label>
+	</fieldset>
+	<div id="map"></div>
+
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/reference.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHyF7fJdrdyM_jQrzvwTq-bADDbTwLqtY&libraries=places,visualization&callback=initMap"	async defer></script>
+</body>
+</html>

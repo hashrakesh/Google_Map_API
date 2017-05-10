@@ -1,0 +1,26 @@
+body {
+    padding: 4px;
+}
+div#map {
+    height: 600px;
+    width: 100%;
+}
+.map-outer {
+    position: relative;
+}
+.checkbox-outer {
+    position: absolute;
+    right: 110px;
+    top: 0;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.checkbox-outer label,
+.checkbox-outer input {
+    cursor: pointer;
+}
